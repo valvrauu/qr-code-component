@@ -7,7 +7,10 @@
 
     /* fonts */
     --fs-base: 1.5rem;
+    --fs-lg: 2.2rem;
+
     --ff-primary: 'Outfit', sans-serif;
+    
     --fw-md: 400;
     --fw-lg: 700;
 }
@@ -37,5 +40,52 @@ body {
     min-block-size: 100dvh;
     
     background: var(--light-gray);
+
     font-size: var(--fs-base);
+    font-family: var(--ff-primary);
+}
+
+.card {
+    max-width: 32rem;
+    max-inline-size: 32rem;
+    padding: 1.6rem 1.6rem 4rem 1.6rem;
+
+    background: var(--white);
+
+    text-align: center;
+
+    border-radius: 2rem;
+    box-shadow: 0 2.5rem 2.5rem 0 rgba(0, 0, 0, 4.77%);
+}
+
+.card__image {
+    display: block;
+    max-width: 100%;
+    max-inline-size: 100%;
+    block-size: auto;
+
+    margin-bottom: 2.4rem;
+    margin-block-end: 2.4rem;
+
+    border-radius: 1rem;
+}
+
+.card__title {
+    margin-bottom: 1.6rem;
+    margin-block-end: 1.6rem;
+
+    color: var(--dark-blue);
+
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-lg);
+}
+
+.card__text {
+    padding: 0 1.6rem;
+    padding-inline: 1.6rem;
+
+    color: var(--grayish-blue);
+
+    font-weight: var(--fw-md);
+    letter-spacing: 0.19px;
 }
