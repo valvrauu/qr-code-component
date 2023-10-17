@@ -50,11 +50,11 @@ body {
 
     background: var(--white);
 
+    font-feature-settings: 'clig' off, 'liga' off;
     text-align: center;
-    font-kerning: none;
 
     border-radius: 2rem;
-    box-shadow: 0 2.5rem 2.5rem 0 rgba(0, 0, 0, 4.77%);
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.05%);
 }
 
 .card__image {
@@ -82,5 +82,5 @@ body {
     color: var(--grayish-blue);
 
     font-weight: var(--fw-md);
-    letter-spacing: 0.19px;
+    letter-spacing: 0.0188rem;
 }
